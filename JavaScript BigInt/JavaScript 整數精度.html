@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript 數字</h1>
+    <h2>整數精度</h2>
+    <h2>整數(沒有句點或指數符號的數字)最多精確到 15 位:</h2>
+    <p id="demo"></p>
+    <script>
+        let x = 999999999999999;
+        let y = 9999999999999999;
+        document.getElementById("demo").innerHTML = 
+        x +" x 為 "+x.toString().length +" 位 " + "<br/>" + y +" y 為 "+ y.toString().length +" 位 ";
+    </script>
+</body>
+</html>

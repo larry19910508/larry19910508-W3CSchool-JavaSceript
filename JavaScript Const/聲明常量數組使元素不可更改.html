@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript const</h2>
+    <p>聲明常量數組不會使元素不可更改:</p>
+    <p id="demo"></p>
+    <script>
+        // 創建數組:
+        const cars = ["Audi","BMW","Porsche"];
+        // 更改元素:
+        cars[0] = "Toyota";
+        //添加元素:
+        cars.push("Honda");
+        // 顯示數組:
+        document.getElementById("demo").innerHTML = cars;
+    </script>
+</body>
+</html>

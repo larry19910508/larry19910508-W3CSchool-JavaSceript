@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>使用 const 聲明變量</h2>
+    <p id="demo"></p>
+    <script>
+        var x = 10;
+        // 此處 x 是 10
+        {
+            const x = 2;
+            // 此處 x 是2
+        }
+        // 此處 x 是 10
+        document.getElementById("demo").innerHTML = x;
+    </script>
+</body>
+</html>

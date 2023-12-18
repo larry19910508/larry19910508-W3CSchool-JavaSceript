@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript 數字</h1>
+    <p>Integer 和 BigInt</p>
+    <p id="demo"></p>
+    <script>
+        let x = 9999999999999999;
+        let y = BigInt("9999999999999999");
+        document.getElementById("demo").innerHTML = x + " 幾位數 = " + x.toString().length + "<br/>" + y +" 幾位數 = " + y.toString().length;
+    </script>
+</body>
+</html>

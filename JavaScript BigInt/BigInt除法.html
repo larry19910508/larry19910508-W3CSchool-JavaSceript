@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript 除法</h1>
+    <h2>不能混合使用 BigInt 和其他類型，請使用顯示轉換。</h2>
+    <p>BigInt 不能有小數。</p>
+    <p id="demo"></p>
+    <script>
+        let x = 5n;
+        let y = Number(x)/2;
+        document.getElementById("demo").innerHTML = y;
+    </script>
+</body>
+</html>
